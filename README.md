@@ -1,5 +1,7 @@
 # 🚀 CareerPilot AI
 
+Deployed link: https://carrerpilot-1.onrender.com
+
 > An Intelligent Multi-Agent Career Guidance System built using **Google Gemini**, **LangGraph**, **FastAPI**, and **Streamlit**.
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)

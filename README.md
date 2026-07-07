@@ -335,7 +335,28 @@ streamlit run frontend/app.py
 
 ---
 
-# 📸 Application Pages
+# � Docker Deployment
+
+Build the Docker image:
+
+```bash
+docker build -t careerpilot-ai:latest .
+```
+
+Run the container:
+
+```bash
+docker run -p 8000:8000 -p 8501:8501 --env-file .env careerpilot-ai:latest
+```
+
+Then open:
+
+- http://127.0.0.1:8000
+- http://127.0.0.1:8501
+
+---
+
+# �📸 Application Pages
 
 - Home
 - Dashboard

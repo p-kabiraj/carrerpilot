@@ -1,4 +1,4 @@
-# 🚀 CareerPilot AI
+# 🚀 [CareerPilot AI](https://carrerpilot-1.onrender.com)
 
 Deployed link: https://carrerpilot-1.onrender.com
 
@@ -39,7 +39,6 @@ CareerPilot AI solves these challenges using specialized AI agents.
 # ✨ Features
 
 ### 📄 Resume Analyzer
-
 - Upload PDF Resume
 - ATS-style Resume Review
 - Resume Score
@@ -50,7 +49,6 @@ CareerPilot AI solves these challenges using specialized AI agents.
 ---
 
 ### 💼 Career Guidance
-
 - Personalized Career Advice
 - Best Career Paths
 - Salary Insights
@@ -61,7 +59,6 @@ CareerPilot AI solves these challenges using specialized AI agents.
 ---
 
 ### 🎤 Interview Preparation
-
 - Role-specific Interview Questions
 - Expected Answers
 - Interview Tips
@@ -70,7 +67,6 @@ CareerPilot AI solves these challenges using specialized AI agents.
 ---
 
 ### 🗺️ Career Roadmap
-
 - Month-wise Learning Plan
 - Recommended Courses
 - Projects
@@ -108,32 +104,27 @@ The application includes:
 The project uses multiple AI agents.
 
 ## Router Agent
-
 Routes user requests to the appropriate specialized agent.
 
 ---
 
 ## Resume Agent
-
 - Reads PDF Resume
 - Uses Gemini for Resume Analysis
 
 ---
 
 ## Career Agent
-
 Provides personalized career guidance.
 
 ---
 
 ## Interview Agent
-
 Generates interview questions.
 
 ---
 
 ## Roadmap Agent
-
 Creates customized learning roadmaps.
 
 ---
@@ -162,7 +153,7 @@ Creates customized learning roadmaps.
 PDF Reader       Gemini API
       │
       ▼
- Memory Management
+Memory Management
 ```
 
 ---
@@ -170,35 +161,27 @@ PDF Reader       Gemini API
 # 🛠️ Tech Stack
 
 ### Programming Language
-
 - Python 3.10
 
 ### Backend
-
 - FastAPI
 
 ### Frontend
-
 - Streamlit
 
 ### LLM
-
 - Google Gemini
 
 ### AI Framework
-
 - LangGraph
 
 ### PDF Processing
-
 - PyMuPDF
 
 ### Memory
-
 - JSON Storage
 
 ### API
-
 - REST API
 
 ---
@@ -207,51 +190,28 @@ PDF Reader       Gemini API
 
 ```
 CareerPilot-AI/
-
 │
-
 ├── backend/
-
 │ ├── agents/
-
 │ ├── tools/
-
 │ ├── api.py
-
 │ ├── workflow.py
-
 │ ├── config.py
-
 │
-
 ├── frontend/
-
 │ ├── app.py
-
 │ └── pages/
-
 │ ├── dashboard.py
-
 │ ├── resume.py
-
 │ ├── career.py
-
 │ ├── interview.py
-
 │ ├── roadmap.py
-
 │ └── about.py
-
 │
-
 ├── uploads/
-
 ├── data/
-
 ├── requirements.txt
-
 ├── README.md
-
 └── .env
 ```
 
@@ -337,7 +297,7 @@ streamlit run frontend/app.py
 
 ---
 
-# � Docker Deployment
+# Docker Deployment
 
 Build the Docker image:
 
@@ -358,7 +318,7 @@ Then open:
 
 ---
 
-# �📸 Application Pages
+# 📸 Application Pages
 
 - Home
 - Dashboard
